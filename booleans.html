@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boolean</title>
+</head>
+<body>
+  <p>Rock Paper Scissors</p>
+  <button onclick="
+    var computermove=Math.ceil(Math.random()*3);
+    if (computermove===1) {
+      alert('You Choose Rock .Computer Choose Rock. Match Draw') ;     
+    }
+    else if(computermove===2){
+      alert('You Choose Rock .Computer Choose Paper. Match Lost') ;     
+    }
+    else{
+    alert('You Choose Rock .Computer Choose Scissor. Match Win') ;     
+    }">Rock</button>
+  <button onclick="
+    var computermove=Math.ceil(Math.random()*3);
+    if (computermove===1) {
+    alert('You Choose Paper .Computer Choose Rock. Match Win') ;     
+    }
+    else if(computermove===2){
+    alert('You Choose Paper .Computer Choose Paper. Match Draw') ;     
+    }
+    else{
+    alert('You Choose Paper .Computer Choose Scissor. Match Lost') ;     
+    }">Paper</button>
+  <button 
+    onclick="let computermove=Math.ceil(Math.random()*3);
+    if (computermove===1) {
+    alert('You Choose Scissor .Computer Choose Rock. Match Lost') ;     
+    }
+    else if(computermove===2){
+    alert('You Choose Scissor .Computer Choose Paper. Match Win') ;     
+    }
+    else{
+    alert('You Choose Scissor .Computer Choose Scissor. Match Draw') ;     
+    }">Scissor</button>
+
+  <script>
+     
+  </script>
+</body>
+</html>

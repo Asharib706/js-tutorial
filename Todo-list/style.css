@@ -1,0 +1,57 @@
+body {
+  font-family: Arial;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 200px 150px 100px;
+  grid-auto-rows: minmax(40px, auto);
+  column-gap: 8px;
+  
+  margin-bottom:10px;
+  align-items: stretch; 
+  font-size: 15px; 
+  padding: 6px;
+}
+.list-container {
+  display: grid;
+  grid-template-columns: 200px 150px 100px;
+  grid-auto-rows: minmax(40px, auto);
+  column-gap: 8px;
+  row-gap: 4px; 
+  /* margin-bottom:10px; */
+  align-items: stretch;
+  font-size: 15px; 
+  padding: 8px;
+}
+.input-title {
+  font-size: 15px;
+  padding: 6px;
+}
+
+.input-date {
+  font-size: 15px;
+  padding: 6px;
+}
+
+.add-button {
+  color: white;
+  background-color: green;
+  border: none;
+   font-size: 15px;
+  padding: 6px;
+}
+
+.delete-button {
+  color: white;
+  background-color: rgb(139, 0, 0);
+  border: none;
+  font-size: 15px;
+  padding: 6px; 
+}
+.list-item{
+  font-size: 15px;
+  padding: 6px;
+  align-items: center;
+  display: flex;
+  }
